@@ -1,2 +1,2 @@
 config SHIELD_GAMINGBOARD
-    def_bool $(shields_list_contains, gamingboard)
+    def_bool $(shields_list_contains,gamingboard)
