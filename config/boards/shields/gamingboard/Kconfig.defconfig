@@ -1,6 +1,6 @@
 if SHIELD_GAMINGBOARD
 
-config ZMK_KEYBOARD_NAME
+config ZMK_GAMINGBOARD
     default "gamingboard"
 
 endif
