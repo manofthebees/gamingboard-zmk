@@ -1,0 +1,8 @@
+file_format: "1"
+id: gamingboard
+name: gamingboard
+type: shield
+url: https://github.com/manofthebees/gamingboard-zmk
+requires: [seeed_xiao]
+features:
+  - keys

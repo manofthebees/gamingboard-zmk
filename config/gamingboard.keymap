@@ -1,0 +1,28 @@
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/bt.h>
+
+/ {
+        keymap {
+            compatible = "zmk,keymap";
+
+            default_layer {
+// | f2  | prv | pau | nxt | nxt | nxt | nxt | nxt | nxt | nxt | nxt | nxt |
+// | vup |  7  |  8  |  9  | nxt | nxt | nxt | nxt | nxt | nxt | nxt |
+// | vdn |  4  |  5  |  6  | nxt | nxt | nxt | nxt | nxt | nxt |
+// | mut |  1  |  2  |  3  |
+// | mFN | bkp |  0  | ent |
+
+            bindings = <
+  &kp ESC &kp Q &kp W &kp E &kp R &kp T &kp Y &kp U &kp I &kp O &kp P &kp BSPC
+  &kp TAB &kp A &kp S &kp D &kp F &kp G &kp H &kp J &kp K &kp L &kp SQT 
+  &kp LSHFT &kp Z &kp X &kp C &kp V &kp B &kp N &kp M &kp COMMA &kp DOT 
+  &kp LCTRL &kp N1 &kp SPC &kp N2 &kp N3 
+
+            >;
+            };
+
+        };
+
+
+};
