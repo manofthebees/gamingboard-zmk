@@ -1,6 +1,6 @@
 ---
 include:
-  - board: seeeduino_xiao_ble
+  - board: seeeduino_xiao
     shield: gamingboard
-  - board: seeeduino_xiao_ble
+  - board: seeeduino_xiao
     shield: settings_reset
